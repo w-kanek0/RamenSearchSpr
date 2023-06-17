@@ -1,0 +1,119 @@
+/* コンテンツの設定(ramenlist.jsp) */
+#wrap {
+    width : 850px;
+    padding: 40px 40px;
+    margin-right: auto;
+    margin-left: auto;
+    border: #006400 1px solid;
+    background-color: #f9eec5;
+    text-align: left;
+}
+
+.search {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 3px 0px;
+}
+
+table.searchTable {
+    border-collapse: collapse;
+}
+
+.searchTable th {
+    font-size: 11px;
+    color: #ac7838;
+    font-weight: lighter;
+    padding-top : 20px;
+    padding-bottom: 0px;
+}
+
+.searchTable td {
+    padding-right: 20px;
+    font-size: 12px;
+}
+
+input[type="text"].text-search {
+    padding: 0.5;
+    height: 18px;
+    font-size: 90%;
+    width: 15em;
+}
+
+input[type="date"].date-search {
+    padding: 2;
+    height: 15px;
+    font-size: 100%;
+    width: 7em;
+    text-align: center;
+}
+
+input[type="time"].time-search {
+    padding: 2;
+    height: 15px;
+    font-size: 100%;
+    width: 5em;
+    text-align: center;
+}
+
+select.select-search{
+    height: 22px;
+    width: 10em;
+    font-size: 80%;
+}
+
+.rameninfodisp {
+    padding: 0px;
+}
+
+/* ラーメン検索テーブル */
+table.ramensTable {
+    width:100%;
+    border: #FAEAB1 2px solid;
+    text-align: center;
+    margin: 10px 0px;
+    border-radius: 5px;
+	border-spacing: 0;
+	border: none;
+	border-left: 1px solid #f9eec5;
+	border-top: 1px solid #f9eec5;
+}
+
+.ramensTable tr>*{
+	padding: 5px 10px;
+	border: none;
+}
+
+.ramensTable tr:first-child>*:first-child{
+	border-radius: 5px 5px 5px 5px;
+}
+.ramensTable tr:first-child>*:last-child{
+	border-radius: 5px 5px 5px 5px;
+}
+.ramensTable tr:last-child>*:first-child{
+	border-radius: 5px 5px 5px 5px;
+}
+.ramensTable tr:last-child>*:last-child{
+	border-radius: 5px 5px 5px 5px;
+}
+
+.ramensTable th,
+.ramensTable td {
+    padding: 5px 10px;
+	border: none;
+    border: #f9eec5 1px solid;
+    border-radius: 5px;
+}
+
+.ramensTable th {
+    color : #fff;
+    background: #C58940;
+    padding : 2px 3px;
+    font-size : 11px;
+}
+
+.ramensTable td {
+    padding : 10px 5px;
+    background: #E5BA73;
+    font-size : 11px;
+}
+

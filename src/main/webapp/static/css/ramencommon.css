@@ -1,0 +1,91 @@
+/*文字コード指定（CSSファイル内での文字化け防止）*/
+@charset "utf=8";
+
+/* 基本のスタイル */
+/* ページ全体枠の設定 */
+body {
+/*	background-color: #FAF8F1;*/
+    text-align: center;
+    background: url(../img/ramen_bg3.jpg);
+    background-size: 100% auto;
+}
+
+.header {
+    text-align: right;
+    padding: 5px;
+}
+
+.right {
+    text-align: right;
+    padding: 3px;
+}
+
+.center {
+    text-align: center;
+    padding: 3px;
+}
+
+.left {
+    text-align: left;
+    padding: 3px;
+    margin-top: 20px;
+}
+
+.annotation {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0px;
+    padding: 4px;
+    color: #222288;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+    color: #bb7f36;
+}
+
+hr {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.btn {
+    border: #010500 1px solid;
+    border-radius: 2px;
+    text-decoration: none;
+    padding : 2px 20px;
+    font-size: 14px;
+}
+
+.btn-search {
+    color: #fff;
+    background: #0000ff;
+}
+
+.btn-clear {
+    background : #f8f9fa;
+}
+
+.btn-update {
+    background : #dccb18;
+}
+
+.btn-delete {
+    color: #fff;
+    background: #dc143c;
+}
+
+.btn-csv {
+    color: #fff;
+    background: #2f4f4f;
+}
+
+.btn-review {
+    color: #fff;
+    background: #f4a460;
+}
