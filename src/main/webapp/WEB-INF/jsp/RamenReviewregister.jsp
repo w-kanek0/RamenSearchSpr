@@ -12,17 +12,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1 ">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
-<link rel="stylesheet" type="text/css" href="/static/css/ramencommon.css">
-<link rel="stylesheet" type="text/css" href="/static/css/ramenreviewregister.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/ramencommon.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/ramenreviewregister.css">
 
-<script src="static/js/ramenscript.js"></script>
+<script src="${pageContext.request.contextPath}/static/js/ramenscript.js"></script>
 <title>${review.shopName} の口コミ</title>
 </head>
 <body>
 <div id="wrap">
 	<div class="header">
 		こんにちは、${user.username} さん<br />
-		<a type="button" class="btn btn-clear" href="Logout">ログアウト</a>
+		<a type="button" class="btn btn-clear" href="${pageContext.request.contextPath}/Logout">ログアウト</a>
 	</div>
     <c:choose>
 		<c:when test="${review.reviewid > 0}">
@@ -46,7 +46,7 @@
 		<ul id="ID001" ></ul>
 		<br><br>
 		<c:forEach items="${review.filenames}" var="filename">
-			<img src="/static/upload/review/${filename}" width="100" height="80">
+			<img src="${pageContext.request.contextPath}/static/upload/review/${filename}" width="100" height="80">
 		</c:forEach>
 		</td></tr>
 		<tr><th><label>来訪日<font color= "color:#ff0000" size="2">(※必須)</font></label></th><td><input type="date" name="visitday" class="date-review" autocomplete="off" value="${review.visitday.toString().substring(0, 10)}" required /></td></tr>

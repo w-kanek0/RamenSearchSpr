@@ -13,10 +13,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1 ">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
-<link rel="stylesheet" type="text/css" href="/static/css/ramencommon.css">
-<link rel="stylesheet" type="text/css" href="/static/css/ramensearch.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/ramencommon.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/ramensearch.css">
 
-<script src="static/js/ramenscript.js"></script>
+<script src="${pageContext.request.contextPath}/static/js/ramenscript.js"></script>
 <title>ラーメン情報検索システム</title>
 </head>
 <body>
@@ -24,7 +24,7 @@
 <div id="wrap">
     <div class="header">
         こんにちは、${user.username} さん<br />
-        <a type="button" class="btn btn-clear" href="/Logout">ログアウト</a>
+        <a type="button" class="btn btn-clear" href="${pageContext.request.contextPath}/Logout">ログアウト</a>
     </div>
     <h2>検索画面</h2>
     <hr>

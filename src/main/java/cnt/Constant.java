@@ -18,10 +18,10 @@ public class Constant {
 */
 	
 	// ラーメン店情報登録時のサムネイル画像のアップロード先
-	public static final String UPLOAD_THUMBNAIL_PATH = "C:\\workspaceEE\\RamenSearchSpr\\src\\main\\webapp\\static\\upload\\thumbnail\\";
+	public static final String UPLOAD_THUMBNAIL_PATH = "/opt/apache-tomcat/webapps/RamenSearchSpr-0.0.1-SNAPSHOT/static/upload/thumbnail/";
 	
 	// 口コミ投稿時の画像のアップロード先
-	public static final String UPLOAD_REVIEW_PATH = "C:\\workspaceEE\\RamenSearchSpr\\src\\main\\webapp\\static\\upload\\review\\";
+	public static final String UPLOAD_REVIEW_PATH = "/opt/apache-tomcat/webapps/RamenSearchSpr-0.0.1-SNAPSHOT/static/upload/review/";
 	
 	// ユーザー登録エラー時のメッセージ
 	// 登録済みの場合

@@ -13,10 +13,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1 ">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
-<link rel="stylesheet" type="text/css" href="/static/css/ramencommon.css">
-<link rel="stylesheet" type="text/css" href="/static/css/ramenregister.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/ramencommon.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/ramenregister.css">
 
-<script src="static/js/ramenscript.js"></script>
+<script src="${pageContext.request.contextPath}/static/js/ramenscript.js"></script>
 <c:choose>
 	<c:when test="${ramen.shopid == 0}">
 		<title>ラーメン情報登録</title>
@@ -30,7 +30,7 @@
 <div id="wrap">
     <div class="header">
         こんにちは、${user.username} さん<br />
-        <a type="button" class="btn btn-clear" href="Logout">ログアウト</a>
+        <a type="button" class="btn btn-clear" href="${pageContext.request.contextPath}/Logout">ログアウト</a>
     </div>
 <c:choose>
 	<c:when test="${ramen.shopid == 0}">
