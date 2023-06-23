@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<!-- ///デプロイ用/// -->
+	<!-- デプロイ用 -->
 	<packaging>war</packaging>
-	<!-- ///デプロイ用ここまで/// -->
+	<!-- デプロイ用ここまで -->
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -86,13 +86,13 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
-		<!-- ///デプロイ用/// -->
+		<!-- デプロイ用 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
 		</dependency>
-		<!-- ///デプロイ用ここまで/// -->
+		<!-- デプロイ用ここまで -->
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
@@ -111,6 +111,8 @@
 	</dependencies>
 
 	<build>
+		<!-- warファイル名 -->
+		<finalName>RamenSearch</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

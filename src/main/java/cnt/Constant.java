@@ -1,27 +1,13 @@
 package cnt;
 
 public class Constant {
-	/******** ↓キー **********/
-	/** データベース接続 **/
-	// PostgreSQLの場合
-	public static final String JDBC_DRIVER = "org.postgresql.Driver";
-	public static final String JDBC_CONNECTION = "jdbc:postgresql://localhost:5432/postgres";
-	public static final String JDBC_USER = "postgres";
-	public static final String JDBC_PASS = "m0squ1t0gat0";
 
-	// MySQLの場合
-/*	
-	public static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-	public static final String JDBC_CONNECTION = "jdbc:mysql://localhost:3306/ramenDB";
-	public static final String JDBC_USER = "root";
-	public static final String JDBC_PASS = "m0squ1t0gat0";
-*/
 	
 	// ラーメン店情報登録時のサムネイル画像のアップロード先
-	public static final String UPLOAD_THUMBNAIL_PATH = "/opt/apache-tomcat/webapps/RamenSearchSpr-0.0.1-SNAPSHOT/static/upload/thumbnail/";
+	public static final String UPLOAD_THUMBNAIL_PATH = "/opt/apache-tomcat/webapps/RamenSearch/static/upload/thumbnail/";
 	
 	// 口コミ投稿時の画像のアップロード先
-	public static final String UPLOAD_REVIEW_PATH = "/opt/apache-tomcat/webapps/RamenSearchSpr-0.0.1-SNAPSHOT/static/upload/review/";
+	public static final String UPLOAD_REVIEW_PATH = "/opt/apache-tomcat/webapps/RamenSearch/static/upload/review/";
 	
 	// ユーザー登録エラー時のメッセージ
 	// 登録済みの場合

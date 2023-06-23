@@ -16,7 +16,7 @@
 	<div class="card text-center">
 		<div class="card-body">
 			<p class="text-secondary">ユーザー登録が完了しました。</p>
-			<p><a href="/" class="btn btn-primary w-3" >ログイン</a></p> 
+			<p><a href="${pageContext.request.contextPath}/" class="btn btn-primary w-3" >ログイン</a></p> 
 		</div>
 	</div>
 </div>
